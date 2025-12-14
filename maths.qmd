@@ -1,0 +1,43 @@
+---
+title: "Maths formulas"
+format: html
+editor: visual
+---
+
+# Basic statistics formulas
+
+## Mean formula:
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i = 1}^{n}{x_i}
+$$
+
+## Median formula
+
+$$
+MDN = \begin{cases} 
+    X[\frac{n+1}{2}] \space \text{n is odd} \\ 
+\\
+    \frac{X[\frac{n}{2}] + X[\frac{n}{2} + 1]}{2}  \space \text{n is even} 
+  \end{cases}
+$$
+
+## Variance formula
+
+$$
+Var = \frac{\sum_{i=1}^{n}{\left(x_i-\bar{x}\right)^2}}{n-1}
+$$
+
+$$
+Var = p \cdot (1-p)
+$$
+
+## Standard deviation
+
+$$
+SD=\sqrt{Var \space}
+$$
+
+```{r}
+
+```
